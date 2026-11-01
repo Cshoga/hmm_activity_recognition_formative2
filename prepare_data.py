@@ -1,6 +1,3 @@
-"""Merge Sensor Logger exports (one zip per recording) into one labelled CSV per recording.
-Usage: python prepare_data.py "path/to/CVS data"   ->  writes data/<activity>_<nn>.csv
-Only Accelerometer.csv and Gyroscope.csv are used (Activity.csv is the phone's own guess and is ignored)."""
 import sys, glob, os, re, zipfile
 import pandas as pd
 
